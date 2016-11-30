@@ -16,6 +16,10 @@
 		511689E61DEF7D9200829A6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 511689DF1DEF7D9200829A6B /* Main.storyboard */; };
 		511689E71DEF7D9200829A6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511689E11DEF7D9200829A6B /* ViewController.swift */; };
 		511689E91DEF7E2200829A6B /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511689E81DEF7E2200829A6B /* DataController.swift */; };
+		511689EC1DEF7FB500829A6B /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 511689EB1DEF7FB500829A6B /* questions.json */; };
+		511689EE1DEF804900829A6B /* answers.json in Resources */ = {isa = PBXBuildFile; fileRef = 511689ED1DEF804900829A6B /* answers.json */; };
+		511689EF1DEF805D00829A6B /* answers.json in Resources */ = {isa = PBXBuildFile; fileRef = 511689ED1DEF804900829A6B /* answers.json */; };
+		511689F01DEF805F00829A6B /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 511689EB1DEF7FB500829A6B /* questions.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,8 @@
 		511689E01DEF7D9200829A6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		511689E11DEF7D9200829A6B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		511689E81DEF7E2200829A6B /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		511689EB1DEF7FB500829A6B /* questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
+		511689ED1DEF804900829A6B /* answers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = answers.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,7 @@
 		511689BC1DEF7CB500829A6B /* StackExchangeTests */ = {
 			isa = PBXGroup;
 			children = (
+				511689EA1DEF7F7100829A6B /* JSON */,
 				511689BD1DEF7CB500829A6B /* StackExchangeTests.swift */,
 				511689BF1DEF7CB500829A6B /* Info.plist */,
 			);
@@ -153,6 +160,15 @@
 				511689E11DEF7D9200829A6B /* ViewController.swift */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		511689EA1DEF7F7100829A6B /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				511689EB1DEF7FB500829A6B /* questions.json */,
+				511689ED1DEF804900829A6B /* answers.json */,
+			);
+			path = JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +281,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				511689F01DEF805F00829A6B /* questions.json in Resources */,
 				511689E61DEF7D9200829A6B /* Main.storyboard in Resources */,
 				511689E41DEF7D9200829A6B /* Assets.xcassets in Resources */,
 				511689E51DEF7D9200829A6B /* LaunchScreen.storyboard in Resources */,
+				511689EF1DEF805D00829A6B /* answers.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +293,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				511689EC1DEF7FB500829A6B /* questions.json in Resources */,
+				511689EE1DEF804900829A6B /* answers.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
