@@ -15,6 +15,7 @@
 		511689E51DEF7D9200829A6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 511689DD1DEF7D9200829A6B /* LaunchScreen.storyboard */; };
 		511689E61DEF7D9200829A6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 511689DF1DEF7D9200829A6B /* Main.storyboard */; };
 		511689E71DEF7D9200829A6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511689E11DEF7D9200829A6B /* ViewController.swift */; };
+		511689E91DEF7E2200829A6B /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511689E81DEF7E2200829A6B /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		511689DE1DEF7D9200829A6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		511689E01DEF7D9200829A6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		511689E11DEF7D9200829A6B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		511689E81DEF7E2200829A6B /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				511689D91DEF7D9200829A6B /* StackExchange.xcdatamodeld */,
+				511689E81DEF7E2200829A6B /* DataController.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				511689E71DEF7D9200829A6B /* ViewController.swift in Sources */,
+				511689E91DEF7E2200829A6B /* DataController.swift in Sources */,
 				511689E21DEF7D9200829A6B /* AppDelegate.swift in Sources */,
 				511689E31DEF7D9200829A6B /* StackExchange.xcdatamodeld in Sources */,
 			);
