@@ -20,6 +20,9 @@
 		511689EE1DEF804900829A6B /* answers.json in Resources */ = {isa = PBXBuildFile; fileRef = 511689ED1DEF804900829A6B /* answers.json */; };
 		511689EF1DEF805D00829A6B /* answers.json in Resources */ = {isa = PBXBuildFile; fileRef = 511689ED1DEF804900829A6B /* answers.json */; };
 		511689F01DEF805F00829A6B /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 511689EB1DEF7FB500829A6B /* questions.json */; };
+		511689F21DEF884300829A6B /* SEDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511689F11DEF884300829A6B /* SEDataTests.swift */; };
+		511689F41DEF88AC00829A6B /* SEData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511689F31DEF88AC00829A6B /* SEData.swift */; };
+		516E79261DEF964600CB2FC5 /* TestsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516E79251DEF964600CB2FC5 /* TestsHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,9 @@
 		511689E81DEF7E2200829A6B /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		511689EB1DEF7FB500829A6B /* questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
 		511689ED1DEF804900829A6B /* answers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = answers.json; sourceTree = "<group>"; };
+		511689F11DEF884300829A6B /* SEDataTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SEDataTests.swift; sourceTree = "<group>"; };
+		511689F31DEF88AC00829A6B /* SEData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SEData.swift; sourceTree = "<group>"; };
+		516E79251DEF964600CB2FC5 /* TestsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestsHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +126,8 @@
 				511689EA1DEF7F7100829A6B /* JSON */,
 				511689BD1DEF7CB500829A6B /* StackExchangeTests.swift */,
 				511689BF1DEF7CB500829A6B /* Info.plist */,
+				511689F11DEF884300829A6B /* SEDataTests.swift */,
+				516E79251DEF964600CB2FC5 /* TestsHelper.swift */,
 			);
 			path = StackExchangeTests;
 			sourceTree = "<group>";
@@ -147,6 +155,7 @@
 			children = (
 				511689D91DEF7D9200829A6B /* StackExchange.xcdatamodeld */,
 				511689E81DEF7E2200829A6B /* DataController.swift */,
+				511689F31DEF88AC00829A6B /* SEData.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -313,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				511689E71DEF7D9200829A6B /* ViewController.swift in Sources */,
+				511689F41DEF88AC00829A6B /* SEData.swift in Sources */,
 				511689E91DEF7E2200829A6B /* DataController.swift in Sources */,
 				511689E21DEF7D9200829A6B /* AppDelegate.swift in Sources */,
 				511689E31DEF7D9200829A6B /* StackExchange.xcdatamodeld in Sources */,
@@ -323,6 +333,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				516E79261DEF964600CB2FC5 /* TestsHelper.swift in Sources */,
+				511689F21DEF884300829A6B /* SEDataTests.swift in Sources */,
 				511689BE1DEF7CB500829A6B /* StackExchangeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -566,6 +578,7 @@
 				511689CF1DEF7CB500829A6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		511689D01DEF7CB500829A6B /* Build configuration list for PBXNativeTarget "StackExchangeTests" */ = {
 			isa = XCConfigurationList;
@@ -574,6 +587,7 @@
 				511689D21DEF7CB500829A6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		511689D31DEF7CB500829A6B /* Build configuration list for PBXNativeTarget "StackExchangeUITests" */ = {
 			isa = XCConfigurationList;
@@ -582,6 +596,7 @@
 				511689D51DEF7CB500829A6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
