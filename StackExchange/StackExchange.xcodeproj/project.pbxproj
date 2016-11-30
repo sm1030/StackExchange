@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		511689A61DEF7CB500829A6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511689A51DEF7CB500829A6B /* AppDelegate.swift */; };
-		511689A81DEF7CB500829A6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511689A71DEF7CB500829A6B /* ViewController.swift */; };
-		511689AB1DEF7CB500829A6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 511689A91DEF7CB500829A6B /* Main.storyboard */; };
-		511689AE1DEF7CB500829A6B /* StackExchange.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 511689AC1DEF7CB500829A6B /* StackExchange.xcdatamodeld */; };
-		511689B01DEF7CB500829A6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 511689AF1DEF7CB500829A6B /* Assets.xcassets */; };
-		511689B31DEF7CB500829A6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 511689B11DEF7CB500829A6B /* LaunchScreen.storyboard */; };
 		511689BE1DEF7CB500829A6B /* StackExchangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511689BD1DEF7CB500829A6B /* StackExchangeTests.swift */; };
 		511689C91DEF7CB500829A6B /* StackExchangeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511689C81DEF7CB500829A6B /* StackExchangeUITests.swift */; };
+		511689E21DEF7D9200829A6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511689D71DEF7D9200829A6B /* AppDelegate.swift */; };
+		511689E31DEF7D9200829A6B /* StackExchange.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 511689D91DEF7D9200829A6B /* StackExchange.xcdatamodeld */; };
+		511689E41DEF7D9200829A6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 511689DC1DEF7D9200829A6B /* Assets.xcassets */; };
+		511689E51DEF7D9200829A6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 511689DD1DEF7D9200829A6B /* LaunchScreen.storyboard */; };
+		511689E61DEF7D9200829A6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 511689DF1DEF7D9200829A6B /* Main.storyboard */; };
+		511689E71DEF7D9200829A6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511689E11DEF7D9200829A6B /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +36,6 @@
 
 /* Begin PBXFileReference section */
 		511689A21DEF7CB500829A6B /* StackExchange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackExchange.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		511689A51DEF7CB500829A6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		511689A71DEF7CB500829A6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		511689AA1DEF7CB500829A6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		511689AD1DEF7CB500829A6B /* StackExchange.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StackExchange.xcdatamodel; sourceTree = "<group>"; };
-		511689AF1DEF7CB500829A6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		511689B21DEF7CB500829A6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		511689B41DEF7CB500829A6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		511689B91DEF7CB500829A6B /* StackExchangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackExchangeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		511689BD1DEF7CB500829A6B /* StackExchangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackExchangeTests.swift; sourceTree = "<group>"; };
@@ -49,6 +43,12 @@
 		511689C41DEF7CB500829A6B /* StackExchangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackExchangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		511689C81DEF7CB500829A6B /* StackExchangeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackExchangeUITests.swift; sourceTree = "<group>"; };
 		511689CA1DEF7CB500829A6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		511689D71DEF7D9200829A6B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		511689DA1DEF7D9200829A6B /* StackExchange.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StackExchange.xcdatamodel; sourceTree = "<group>"; };
+		511689DC1DEF7D9200829A6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		511689DE1DEF7D9200829A6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		511689E01DEF7D9200829A6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		511689E11DEF7D9200829A6B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +99,9 @@
 		511689A41DEF7CB500829A6B /* StackExchange */ = {
 			isa = PBXGroup;
 			children = (
-				511689A51DEF7CB500829A6B /* AppDelegate.swift */,
-				511689A71DEF7CB500829A6B /* ViewController.swift */,
-				511689A91DEF7CB500829A6B /* Main.storyboard */,
-				511689AF1DEF7CB500829A6B /* Assets.xcassets */,
-				511689B11DEF7CB500829A6B /* LaunchScreen.storyboard */,
+				511689D61DEF7D9200829A6B /* Core */,
+				511689DB1DEF7D9200829A6B /* UI */,
 				511689B41DEF7CB500829A6B /* Info.plist */,
-				511689AC1DEF7CB500829A6B /* StackExchange.xcdatamodeld */,
 			);
 			path = StackExchange;
 			sourceTree = "<group>";
@@ -126,6 +122,34 @@
 				511689CA1DEF7CB500829A6B /* Info.plist */,
 			);
 			path = StackExchangeUITests;
+			sourceTree = "<group>";
+		};
+		511689D61DEF7D9200829A6B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				511689D71DEF7D9200829A6B /* AppDelegate.swift */,
+				511689D81DEF7D9200829A6B /* CoreData */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		511689D81DEF7D9200829A6B /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				511689D91DEF7D9200829A6B /* StackExchange.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		511689DB1DEF7D9200829A6B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				511689DC1DEF7D9200829A6B /* Assets.xcassets */,
+				511689DD1DEF7D9200829A6B /* LaunchScreen.storyboard */,
+				511689DF1DEF7D9200829A6B /* Main.storyboard */,
+				511689E11DEF7D9200829A6B /* ViewController.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,9 +262,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				511689B31DEF7CB500829A6B /* LaunchScreen.storyboard in Resources */,
-				511689B01DEF7CB500829A6B /* Assets.xcassets in Resources */,
-				511689AB1DEF7CB500829A6B /* Main.storyboard in Resources */,
+				511689E61DEF7D9200829A6B /* Main.storyboard in Resources */,
+				511689E41DEF7D9200829A6B /* Assets.xcassets in Resources */,
+				511689E51DEF7D9200829A6B /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +289,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				511689A81DEF7CB500829A6B /* ViewController.swift in Sources */,
-				511689AE1DEF7CB500829A6B /* StackExchange.xcdatamodeld in Sources */,
-				511689A61DEF7CB500829A6B /* AppDelegate.swift in Sources */,
+				511689E71DEF7D9200829A6B /* ViewController.swift in Sources */,
+				511689E21DEF7D9200829A6B /* AppDelegate.swift in Sources */,
+				511689E31DEF7D9200829A6B /* StackExchange.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,20 +327,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		511689A91DEF7CB500829A6B /* Main.storyboard */ = {
+		511689DD1DEF7D9200829A6B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				511689AA1DEF7CB500829A6B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		511689B11DEF7CB500829A6B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				511689B21DEF7CB500829A6B /* Base */,
+				511689DE1DEF7D9200829A6B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		511689DF1DEF7D9200829A6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				511689E01DEF7D9200829A6B /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -538,12 +562,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		511689AC1DEF7CB500829A6B /* StackExchange.xcdatamodeld */ = {
+		511689D91DEF7D9200829A6B /* StackExchange.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				511689AD1DEF7CB500829A6B /* StackExchange.xcdatamodel */,
+				511689DA1DEF7D9200829A6B /* StackExchange.xcdatamodel */,
 			);
-			currentVersion = 511689AD1DEF7CB500829A6B /* StackExchange.xcdatamodel */;
+			currentVersion = 511689DA1DEF7D9200829A6B /* StackExchange.xcdatamodel */;
 			path = StackExchange.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
