@@ -33,6 +33,16 @@ class Presenter: ApiServiceDelegate {
         api?.requestQuestions()
     }
     
+    func getImageData(imageUrl: String) -> Data? {
+        let data = SEData.getData(forURL: imageUrl)
+        
+        if data == nil {
+            api?.requestImage(image_url: imageUrl)
+        }
+        
+        return data
+    }
+    
     func requestAnswer(questionId: Int) {
         self.questionId = questionId
         api?.requestAnswers(questionId: questionId)

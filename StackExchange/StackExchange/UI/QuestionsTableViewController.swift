@@ -55,7 +55,7 @@ class QuestionsTableViewController: UITableViewController, PresenterDelegate {
 
         if presenter.questions.count > indexPath.row {
             let question = presenter.questions[indexPath.row]
-            cell?.titleLabel.text = question.title
+            cell?.setQuestionData(question)
         }
 
         return cell!
