@@ -45,6 +45,7 @@ class Presenter: ApiServiceDelegate {
     
     func requestAnswer(questionId: Int) {
         self.questionId = questionId
+        answer = nil
         api?.requestAnswers(questionId: questionId)
     }
     
@@ -53,7 +54,8 @@ class Presenter: ApiServiceDelegate {
         questionsDelegate?.presenterDataUpdated()
     }
     
-    func apiServiceAnswersReceived(answers: SEAnswer) {
+    func apiServiceAnswerReceived(answer: SEAnswer) {
+        self.answer = answer
         answersDelegate?.presenterDataUpdated()
     }
     

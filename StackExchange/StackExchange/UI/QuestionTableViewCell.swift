@@ -20,6 +20,7 @@ class QuestionTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        self.selectionStyle = .none
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -40,15 +41,6 @@ class QuestionTableViewCell: UITableViewCell {
     
     func showTitle() {
         titleLabel.text = question?.title?.replacingOccurrences(of: "&#39;", with: "'").replacingOccurrences(of: "&quot;", with: "\"")
-//        if let data = question?.title?.data(using: .utf8) {
-//            do {
-//                let attrStr = try NSAttributedString(data: data, options: [NSDocumentTypeDocumentAttribute:NSHTMLTextDocumentType], documentAttributes: nil)
-//                titleLabel.attributedText = attrStr
-//            }
-//            catch {
-//                
-//            }
-//        }
     }
     
     func showImage() {
@@ -60,7 +52,7 @@ class QuestionTableViewCell: UITableViewCell {
     }
     
     func showScoreAnswers() {
-        scoreLabel.text = "\((question?.score)!) / \((question?.answerCount)!)"
+        scoreLabel.text = "\((question?.score)!) (\((question?.answerCount)!))"
     }
     
     func showTags() {

@@ -32,6 +32,8 @@
 		516E79351DEFD54D00CB2FC5 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516E79341DEFD54D00CB2FC5 /* Presenter.swift */; };
 		516E79371DEFDED500CB2FC5 /* QuestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516E79361DEFDED500CB2FC5 /* QuestionTableViewCell.swift */; };
 		516E79391DEFDEF100CB2FC5 /* QuestionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516E79381DEFDEF100CB2FC5 /* QuestionsTableViewController.swift */; };
+		51B4ACF31DF00808000618DA /* AnswersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B4ACF21DF00808000618DA /* AnswersTableViewController.swift */; };
+		51B4ACF51DF00841000618DA /* AnswerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B4ACF41DF00841000618DA /* AnswerTableViewCell.swift */; };
 		5D48E8B2AAEC2BBB705D27D7 /* Pods_StackExchange.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04F38CF2FA0A42CCBC6446E /* Pods_StackExchange.framework */; };
 		A28B8C94878F845EA83018B9 /* Pods_StackExchangeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 142EB65777330BCE8DA86963 /* Pods_StackExchangeTests.framework */; };
 		FB27CDB68E758E16F3A63107 /* Pods_StackExchangeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71557FD92FA582FF13416811 /* Pods_StackExchangeUITests.framework */; };
@@ -87,6 +89,8 @@
 		516E79341DEFD54D00CB2FC5 /* Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		516E79361DEFDED500CB2FC5 /* QuestionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionTableViewCell.swift; sourceTree = "<group>"; };
 		516E79381DEFDEF100CB2FC5 /* QuestionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsTableViewController.swift; sourceTree = "<group>"; };
+		51B4ACF21DF00808000618DA /* AnswersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswersTableViewController.swift; sourceTree = "<group>"; };
+		51B4ACF41DF00841000618DA /* AnswerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerTableViewCell.swift; sourceTree = "<group>"; };
 		71557FD92FA582FF13416811 /* Pods_StackExchangeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StackExchangeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A0A15A7CD0EF816B34B7613 /* Pods-StackExchange.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackExchange.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StackExchange/Pods-StackExchange.debug.xcconfig"; sourceTree = "<group>"; };
 		B401780CD6095F45F7ED9FF1 /* Pods-StackExchangeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackExchangeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StackExchangeTests/Pods-StackExchangeTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -209,6 +213,8 @@
 				511689E11DEF7D9200829A6B /* ViewController.swift */,
 				516E79361DEFDED500CB2FC5 /* QuestionTableViewCell.swift */,
 				516E79381DEFDEF100CB2FC5 /* QuestionsTableViewController.swift */,
+				51B4ACF21DF00808000618DA /* AnswersTableViewController.swift */,
+				51B4ACF41DF00841000618DA /* AnswerTableViewCell.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -543,6 +549,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51B4ACF31DF00808000618DA /* AnswersTableViewController.swift in Sources */,
+				51B4ACF51DF00841000618DA /* AnswerTableViewCell.swift in Sources */,
 				516E79371DEFDED500CB2FC5 /* QuestionTableViewCell.swift in Sources */,
 				511689E71DEF7D9200829A6B /* ViewController.swift in Sources */,
 				516E792D1DEFB48600CB2FC5 /* SEOwner.swift in Sources */,

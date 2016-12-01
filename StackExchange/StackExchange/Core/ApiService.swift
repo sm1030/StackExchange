@@ -11,7 +11,7 @@ import Alamofire
 
 protocol ApiServiceDelegate: class {
     func apiServiceQuestionsReceived(questions: [SEQuestion])
-    func apiServiceAnswersReceived(answers: SEAnswer)
+    func apiServiceAnswerReceived(answer: SEAnswer)
     func apiServiceDataImageReceived()
     func apiServiceError(errorMessage: String)
 }
@@ -45,7 +45,7 @@ class ApiService {
     }
     
     func requestAnswers(questionId: Int) {
-        let url = " https://api.stackexchange.com/2.2/questions/\(questionId)?order=desc&sort=activity&site=aviation&filter=!-*f(6rc.(Xr5"
+        let url = "https://api.stackexchange.com/2.2/questions/\(questionId)?order=desc&sort=activity&site=aviation&filter=!-*f(6rc.(Xr5"
         Alamofire.request(url).responseJSON { response in
             var errorMessage: String? = "Network response contain no value"
             if let _ = response.result.value {
@@ -54,7 +54,7 @@ class ApiService {
                     errorMessage = "Answers couldn't be extracted from response"
                     if let answer = SEAnswer.getAnswerWithJsonData(data) {
                         errorMessage = nil
-                        self.delegate?.apiServiceAnswersReceived(answers: answer)
+                        self.delegate?.apiServiceAnswerReceived(answer: answer)
                     }
                 }
             }
