@@ -10,6 +10,7 @@ import Foundation
 
 class SEQuestion {
     let score: Int?
+    let questionId: Int?
     let answerCount: Int?
     let title: String?
     let tags: [String]?
@@ -17,6 +18,7 @@ class SEQuestion {
     
     init(jsonDictionary: Dictionary<String, AnyObject>) {
         score = jsonDictionary["score"] as? Int
+        questionId = jsonDictionary["question_id"] as? Int
         answerCount = jsonDictionary["answer_count"] as? Int
         title = jsonDictionary["title"] as? String
         tags = jsonDictionary["tags"] as? Array<String>

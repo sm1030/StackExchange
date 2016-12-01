@@ -30,6 +30,7 @@ class SEQuestionTests: XCTestCase {
             
             // Check first question
             XCTAssertEqual(questions?[0].score, 7)
+            XCTAssertEqual(questions?[0].questionId , 33535)
             XCTAssertEqual(questions?[0].answerCount , 4)
             XCTAssertEqual(questions?[0].title, "What is this aircraft with elaborate folding wings?")
             XCTAssertEqual(questions?[0].tags?[0], "aircraft-identification")
@@ -38,6 +39,7 @@ class SEQuestionTests: XCTestCase {
             
             // Check last question
             XCTAssertEqual(questions?[29].score, 5)
+            XCTAssertEqual(questions?[29].questionId , 33430)
             XCTAssertEqual(questions?[29].answerCount , 3)
             XCTAssertEqual(questions?[29].title, "Why are most runways made of asphalt and not concrete?")
             XCTAssertEqual(questions?[29].tags?[0], "runways")
