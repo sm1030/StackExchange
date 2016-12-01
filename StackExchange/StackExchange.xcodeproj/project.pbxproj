@@ -26,6 +26,8 @@
 		516E79291DEF9B1C00CB2FC5 /* SEAnswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516E79281DEF9B1C00CB2FC5 /* SEAnswer.swift */; };
 		516E792B1DEFADD200CB2FC5 /* SEAnswerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516E792A1DEFADD200CB2FC5 /* SEAnswerTests.swift */; };
 		516E792D1DEFB48600CB2FC5 /* SEOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516E792C1DEFB48600CB2FC5 /* SEOwner.swift */; };
+		516E792F1DEFBDA800CB2FC5 /* SEQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516E792E1DEFBDA800CB2FC5 /* SEQuestion.swift */; };
+		516E79311DEFC11500CB2FC5 /* SEQuestionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516E79301DEFC11500CB2FC5 /* SEQuestionTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		516E79281DEF9B1C00CB2FC5 /* SEAnswer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SEAnswer.swift; sourceTree = "<group>"; };
 		516E792A1DEFADD200CB2FC5 /* SEAnswerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SEAnswerTests.swift; sourceTree = "<group>"; };
 		516E792C1DEFB48600CB2FC5 /* SEOwner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SEOwner.swift; sourceTree = "<group>"; };
+		516E792E1DEFBDA800CB2FC5 /* SEQuestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SEQuestion.swift; sourceTree = "<group>"; };
+		516E79301DEFC11500CB2FC5 /* SEQuestionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SEQuestionTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +139,7 @@
 				511689F11DEF884300829A6B /* SEDataTests.swift */,
 				516E79251DEF964600CB2FC5 /* TestsHelper.swift */,
 				516E792A1DEFADD200CB2FC5 /* SEAnswerTests.swift */,
+				516E79301DEFC11500CB2FC5 /* SEQuestionTests.swift */,
 			);
 			path = StackExchangeTests;
 			sourceTree = "<group>";
@@ -193,6 +198,7 @@
 			children = (
 				516E79281DEF9B1C00CB2FC5 /* SEAnswer.swift */,
 				516E792C1DEFB48600CB2FC5 /* SEOwner.swift */,
+				516E792E1DEFBDA800CB2FC5 /* SEQuestion.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -341,6 +347,7 @@
 				511689E71DEF7D9200829A6B /* ViewController.swift in Sources */,
 				516E792D1DEFB48600CB2FC5 /* SEOwner.swift in Sources */,
 				511689F41DEF88AC00829A6B /* SEData.swift in Sources */,
+				516E792F1DEFBDA800CB2FC5 /* SEQuestion.swift in Sources */,
 				511689E91DEF7E2200829A6B /* DataController.swift in Sources */,
 				516E79291DEF9B1C00CB2FC5 /* SEAnswer.swift in Sources */,
 				511689E21DEF7D9200829A6B /* AppDelegate.swift in Sources */,
@@ -356,6 +363,7 @@
 				516E792B1DEFADD200CB2FC5 /* SEAnswerTests.swift in Sources */,
 				511689F21DEF884300829A6B /* SEDataTests.swift in Sources */,
 				511689BE1DEF7CB500829A6B /* StackExchangeTests.swift in Sources */,
+				516E79311DEFC11500CB2FC5 /* SEQuestionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
