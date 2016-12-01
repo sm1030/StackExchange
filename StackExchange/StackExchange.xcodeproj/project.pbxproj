@@ -29,6 +29,7 @@
 		516E792F1DEFBDA800CB2FC5 /* SEQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516E792E1DEFBDA800CB2FC5 /* SEQuestion.swift */; };
 		516E79311DEFC11500CB2FC5 /* SEQuestionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516E79301DEFC11500CB2FC5 /* SEQuestionTests.swift */; };
 		516E79331DEFCBDB00CB2FC5 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516E79321DEFCBDB00CB2FC5 /* ApiService.swift */; };
+		516E79351DEFD54D00CB2FC5 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516E79341DEFD54D00CB2FC5 /* Presenter.swift */; };
 		5D48E8B2AAEC2BBB705D27D7 /* Pods_StackExchange.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04F38CF2FA0A42CCBC6446E /* Pods_StackExchange.framework */; };
 		A28B8C94878F845EA83018B9 /* Pods_StackExchangeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 142EB65777330BCE8DA86963 /* Pods_StackExchangeTests.framework */; };
 		FB27CDB68E758E16F3A63107 /* Pods_StackExchangeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71557FD92FA582FF13416811 /* Pods_StackExchangeUITests.framework */; };
@@ -81,6 +82,7 @@
 		516E792E1DEFBDA800CB2FC5 /* SEQuestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SEQuestion.swift; sourceTree = "<group>"; };
 		516E79301DEFC11500CB2FC5 /* SEQuestionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SEQuestionTests.swift; sourceTree = "<group>"; };
 		516E79321DEFCBDB00CB2FC5 /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		516E79341DEFD54D00CB2FC5 /* Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		71557FD92FA582FF13416811 /* Pods_StackExchangeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StackExchangeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A0A15A7CD0EF816B34B7613 /* Pods-StackExchange.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackExchange.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StackExchange/Pods-StackExchange.debug.xcconfig"; sourceTree = "<group>"; };
 		B401780CD6095F45F7ED9FF1 /* Pods-StackExchangeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackExchangeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StackExchangeTests/Pods-StackExchangeTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 				516E79271DEF9AC200CB2FC5 /* Models */,
 				511689D71DEF7D9200829A6B /* AppDelegate.swift */,
 				516E79321DEFCBDB00CB2FC5 /* ApiService.swift */,
+				516E79341DEFD54D00CB2FC5 /* Presenter.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -538,6 +541,7 @@
 				516E792D1DEFB48600CB2FC5 /* SEOwner.swift in Sources */,
 				511689F41DEF88AC00829A6B /* SEData.swift in Sources */,
 				516E792F1DEFBDA800CB2FC5 /* SEQuestion.swift in Sources */,
+				516E79351DEFD54D00CB2FC5 /* Presenter.swift in Sources */,
 				511689E91DEF7E2200829A6B /* DataController.swift in Sources */,
 				516E79331DEFCBDB00CB2FC5 /* ApiService.swift in Sources */,
 				516E79291DEF9B1C00CB2FC5 /* SEAnswer.swift in Sources */,
